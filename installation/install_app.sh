@@ -1,0 +1,24 @@
+# Install Brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/minhhuunguyen/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Install htop
+brew install htop
+
+# Install rectangle
+# https://github.com/rxhanson/Rectangle
+brew install --cask rectangle
+
+# Install fonts for terminal
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+
+# Install ohmyzsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Install vscode
+brew install --cask visual-studio-code

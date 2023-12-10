@@ -22,3 +22,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # Install vscode
 brew install --cask visual-studio-code
+
+# Install nodejs
+brew install npm
+npm install --global yarn

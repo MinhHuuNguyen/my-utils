@@ -20,6 +20,7 @@ rm -rf fonts
 # Install zsh/ohmyzsh
 apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# ZSH_THEME="agnoster" in .zshrc
 
 # Install vscode
 brew install --cask visual-studio-code

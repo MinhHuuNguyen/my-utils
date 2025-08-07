@@ -17,7 +17,8 @@ cd fonts
 cd ..
 rm -rf fonts
 
-# Install ohmyzsh
+# Install zsh/ohmyzsh
+apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install vscode

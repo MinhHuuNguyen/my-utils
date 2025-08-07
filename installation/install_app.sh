@@ -22,6 +22,9 @@ apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # ZSH_THEME="agnoster" in .zshrc
 
+# Install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
 # Install vscode
 brew install --cask visual-studio-code
 
